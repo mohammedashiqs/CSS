@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .combination{
+            background-color: grey;
+            color: blue;
+            padding: 20px
+        }
+        .combination+h5{
+            color: red;
+        }
+        .combination+h5+.test{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 different combinations in css..!</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Descendent Selector (USING SPACE)</li>
+        <li>Child Selector (USING > SYMBOL)</li>
+        <li>Adjacent Sibling Selector (USING + SYMBOL)</li>
+        <li>General Sibling Selector (USING  ~ SYMBOL)</li>
+    </ol>
+    <h1>Adjacent Sibling Selector (USING + SYMBOL) Example..!</h1>
+    <hr>
+    <section class="combination" id="akhil">
+        
+    </section>
+
+    <h5>THIS IS FIRST H5</h5>
+    <h5 class="test">THIS IS SECOND HS</h5>
+    <h5>THIS IS THIRD H5</h5>
+    <h5>THIS IS FOURTH H5</h5>
+</body>
+</html>

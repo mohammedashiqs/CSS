@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .combination{
+            background-color: grey;
+            color: blue;
+            padding: 20px
+        }
+        .combination~h5{
+            color: red;
+            background-color: yellow;
+        }
+        .combination+h5+p{
+            color: yellow;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 different combinations in css..!</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Descendent Selector (USING SPACE)</li>
+        <li>Child Selector (USING > SYMBOL)</li>
+        <li>Adjacent Sibling Selector (USING + SYMBOL)</li>
+        <li>General Sibling Selector (USING  ~ SYMBOL)</li>
+    </ol>
+    <h1>General Sibling Selector (USING  ~ SYMBOL)</h1>
+    <hr>
+    <section class="combination" id="akhil">
+        
+    </section>
+
+    <h5>THIS IS FIRST H5</h5>
+    <h5>THIS IS FIRST PARAGRAPH..!</h5>
+
+    <h5 class="test">THIS IS SECOND H5</h5>
+    <p>THIS IS SECOND PARAGRAPH..!</p>
+
+    
+    <div>
+        <h5>THIS IS THIRD H5</h5>
+        <p>THIS IS THIRD PARAGRAPH..!</p>
+    </div>
+    <h5>THIS IS FOURTH H5</h5>
+    <p>THIS IS FOURTH PARAGRAPH</p>
+</body>
+</html>
